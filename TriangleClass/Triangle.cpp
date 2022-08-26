@@ -12,6 +12,16 @@ int Triangle::getSideA()
     return _a;
 }
 
+int Triangle::getSideB()
+{
+    return _b;
+}
+
+int Triangle::getSideC()
+{
+    return _c;
+}
+
 float Triangle::getArea()
 {
     float area;

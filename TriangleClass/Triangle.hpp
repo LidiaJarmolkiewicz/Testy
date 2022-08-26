@@ -7,6 +7,8 @@ public:
 	};
 	Triangle();
 	int getSideA();
+	int getSideB();
+	int getSideC();
 	float getArea();
 	int getPerimeter();
 	bool isValid();

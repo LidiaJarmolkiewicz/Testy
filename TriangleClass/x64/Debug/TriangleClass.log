@@ -1,5 +1,5 @@
 ﻿  main.cpp
   Triangle.cpp
-D:\SDA\Testy\TriangleClass\Triangle.cpp(22,20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\SDA\Testy\TriangleClass\Triangle.cpp(32,20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   Generating Code...
-  TriangleClass.vcxproj -> D:\SDA\CPPZaawansowany\brudnopis\x64\Debug\TriangleClass.exe
+  TriangleClass.vcxproj -> D:\SDA\Testy\TriangleClass\x64\Debug\TriangleClass.exe
