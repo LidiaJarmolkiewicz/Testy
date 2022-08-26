@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  test.cpp
+D:\SDA\Testy\TESTY\TestQueue\test.cpp(81,2): warning C4002: too many arguments for function-like macro invocation 'EXPECT_TRUE'
+D:\SDA\Testy\TESTY\TestQueue\test.cpp(82,2): warning C4002: too many arguments for function-like macro invocation 'EXPECT_TRUE'
+D:\SDA\Testy\TESTY\TestQueue\test.cpp(83,2): warning C4002: too many arguments for function-like macro invocation 'EXPECT_TRUE'
+D:\SDA\Testy\TESTY\TestQueue\test.cpp(84,2): warning C4002: too many arguments for function-like macro invocation 'EXPECT_TRUE'
+  TestQueue.vcxproj -> D:\SDA\CPPZaawansowany\brudnopis\x64\Debug\TestQueue.exe
