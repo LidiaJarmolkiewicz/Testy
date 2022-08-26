@@ -1,0 +1,4 @@
+﻿  pch.cpp
+  test.cpp
+D:\SDA\Testy\TESTY\BankAccount_Test\test.cpp(43,2): warning C4002: too many arguments for function-like macro invocation 'EXPECT_FALSE'
+  BankAccount_Test.vcxproj -> D:\SDA\CPPZaawansowany\brudnopis\x64\Debug\BankAccount_Test.exe
