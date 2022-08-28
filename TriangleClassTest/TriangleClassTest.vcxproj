@@ -45,11 +45,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TriangleClass\TriangleClass.vcxproj">
-      <Project>{b1d9a57c-14e7-4610-bcfb-e14a5dc14bc6}</Project>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemDefinitionGroup />

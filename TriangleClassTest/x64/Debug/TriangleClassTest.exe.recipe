@@ -2,10 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\SDA\Testy\TriangleClass\x64\Debug\TriangleClass.exe</FullPath>
-    </ProjectOutput>
-    <ProjectOutput>
-      <FullPath>D:\SDA\Testy\TriangleClass\x64\Debug\TriangleClassTest.exe</FullPath>
+      <FullPath>D:\SDA\Testy\TESTY\x64\Debug\TriangleClassTest.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
