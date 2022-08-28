@@ -22,13 +22,13 @@ int Triangle::getSideC()
     return _c;
 }
 
-float Triangle::getArea()
+float Triangle::getArea() 
 {
     float area;
     int p;
-    if (isValid() == true)
+    if (isValid())
     {
-        p = (_a + _b + _c) / 2;
+        p = getPerimeter() / 2;     //(_a + _b + _c) / 2;
         area = sqrt(p * (p - _a) * (p - _b) * (p - _c));
         return area;
     }
@@ -36,13 +36,12 @@ float Triangle::getArea()
     {
         return 0;
     }
-    
 }
 
 int Triangle::getPerimeter()
 {
-    int perimeter;
-    if (isValid() == true)
+    int perimeter=0;
+    if (isValid() )
     {
         return perimeter = _a + _b + _c;
     }
@@ -53,7 +52,7 @@ int Triangle::getPerimeter()
     
 }
 
-bool Triangle::isValid()
+bool Triangle::isValid() 
 {
     if ((_a + _b) > _c && (_b + _c) > _a && (_a + _c) > _b)
     {
