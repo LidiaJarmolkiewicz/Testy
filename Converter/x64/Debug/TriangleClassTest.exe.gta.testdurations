@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Executable>D:\SDA\Testy\Converter\x64\Debug\TriangleClassTest.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="TestTriangle.TestSidePositive" Duration="1" />
+    <TestDuration Test="TestTriangle.TestPerimeter" Duration="1" />
+    <TestDuration Test="TestTriangle.TestArea" Duration="1" />
+    <TestDuration Test="TestTriangle.getPerimeterValidTriange" Duration="1" />
+    <TestDuration Test="TestTriangle.getPerimeterInValidTriange" Duration="1" />
+    <TestDuration Test="TestAreaTriangle.getAreaValidTriange" Duration="1" />
+    <TestDuration Test="TestAreaTriangle.getAreaInValidTriange" Duration="1" />
+    <TestDuration Test="TestValidityTest.IsValidTriange_returnTrue" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>
