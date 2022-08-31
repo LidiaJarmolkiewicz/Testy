@@ -7,7 +7,7 @@ class Converter
 	double convertCelsjuszToFarenheit(double _gc);
 	double convertFarenheitToCelsjusz(double _gf);
 private:
-	const double feetToMeterFactor = 3.281;
+	const double feetToMeterFactor = 3.2808;
 	
 };
 

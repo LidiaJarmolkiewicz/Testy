@@ -31,27 +31,27 @@ TEST(TestConverterTemeratur, FarenheitToCelsjuszConvert0) {
 
 	Converter converter;
 
-	EXPECT_DOUBLE_EQ(converter.convertFarenheitToCelsjusz(0), -17.78);
+	EXPECT_NEAR(converter.convertFarenheitToCelsjusz(0), -17.78,0.01);
 }
 
 TEST(TestConverterTemeratur, FarenheitToCelsjuszPositive) {
 
 	Converter converter;
 
-	EXPECT_DOUBLE_EQ(converter.convertFarenheitToCelsjusz(18), -7.78);
+	EXPECT_NEAR(converter.convertFarenheitToCelsjusz(18), -7.78,0.01);
 }
 TEST(TestConverterTemeratur, FarenheitToCelsjuszNegative) {
 
 	Converter converter;
 
-	EXPECT_DOUBLE_EQ(converter.convertFarenheitToCelsjusz(-20), -28.89);
+	EXPECT_NEAR(converter.convertFarenheitToCelsjusz(-20), -28.89,0.01);
 }
 TEST(TestConverterTemeratur, FarenheitToCelsjuszFraction) {
 
 	Converter converter;
 
-	EXPECT_DOUBLE_EQ(converter.convertFarenheitToCelsjusz(12.50), -10.83);
-	EXPECT_DOUBLE_EQ(converter.convertFarenheitToCelsjusz(-48.8), -44.89);
+	EXPECT_NEAR(converter.convertFarenheitToCelsjusz(12.50), -10.83,0.01);
+	EXPECT_NEAR(converter.convertFarenheitToCelsjusz(-48.8), -44.89,0.01);
 
 }
 TEST(TestConverterMeters, MeterToFeet_convertZero)
@@ -63,25 +63,25 @@ TEST(TestConverterMeters, MeterToFeet_convertZero)
 TEST(TestConverterMeters, MeterToFeet_positive)
 {
 	Converter converter;
-	EXPECT_DOUBLE_EQ(converter.convertMetrToFeet(10), 32.80);
+	EXPECT_NEAR(converter.convertMetrToFeet(10), 32.80,0.01);
 
 }
 TEST(TestConverterMeters, MeterToFeet_Fraction)
 {
 	Converter converter;
-	EXPECT_DOUBLE_EQ(converter.convertMetrToFeet(10.5), 34.45);
+	EXPECT_NEAR(converter.convertMetrToFeet(10.5), 34.45,0.01);
 
 }
 TEST(TestConverterMeters, FeetToMeteresPositive)
 {
 	Converter converter;
-	EXPECT_DOUBLE_EQ(converter.convertFeetToMeter(7), 2.13);
+	EXPECT_NEAR(converter.convertFeetToMeter(11), 3.3528,0.01);
 }
 
 TEST(TestConverterMeters, FeetToMeteresFraction)
 {
 	Converter converter;
-	EXPECT_DOUBLE_EQ(converter.convertFeetToMeter(2.7), 0.82);
+	EXPECT_NEAR(converter.convertFeetToMeter(2.7), 0.82,0.01);
 
 
 }
