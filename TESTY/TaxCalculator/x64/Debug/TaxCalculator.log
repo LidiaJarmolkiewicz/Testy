@@ -1,0 +1,3 @@
+﻿  TaxCalculator.cpp
+D:\SDA\Testy\TESTY\TaxCalculator\TaxCalculator.cpp(27): warning C4715: 'TaxCalculator::getTax': not all control paths return a value
+  TaxCalculator.vcxproj -> D:\SDA\Testy\TESTY\x64\Debug\TaxCalculator.exe
