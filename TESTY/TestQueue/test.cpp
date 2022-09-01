@@ -82,4 +82,44 @@ TEST(QueueTest, TestSwap)
 	EXPECT_TRUE(testedQueueOther.front(), 1);
 	EXPECT_TRUE(testedQueue.size(), 2);
 	EXPECT_TRUE(testedQueueOther.front(), 3);
+
+}
+//test fixture
+class StdQueueTest :public::testing::Test
+{
+public:
+	StdQueueTest() {    //konstruktor
+		for (int i = 0; i < queueSize; ++i)
+		{
+			testedQueue.push(i);
+		}
+	}
+protected:
+	const size_t queueSize = 15;//tu dodac obiekt ktory testujemy
+	std::queue<int>testedQueue;
+};
+
+TEST_F(StdQueueTest, TestAdding)
+{
+	
+	EXPECT_EQ(testedQueue.size(), queueSize);
+}
+
+
+TEST_F(StdQueueTest, TestQueuePop)
+{
+	EXPECT_EQ(testedQueue.size(), queueSize);
+	testedQueue.pop();
+	EXPECT_EQ(testedQueue.size(), queueSize - 1);
+}
+TEST_F(StdQueueTest, TestIfEmpty)
+{
+	
+	
+	for (int i = 0; i < queueSize; ++i)
+	{
+		
+		testedQueue.pop();
+	}
+	EXPECT_TRUE(testedQueue.empty());
 }
